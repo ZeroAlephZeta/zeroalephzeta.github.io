@@ -1,0 +1,5 @@
+The dihedral groups is a family of finite groups of symmetries of regular polygons. The "symmetries" are essentially transformations that result in coinciding (superimposable) forms of the polygon, of which there are two kinds only: rotations and reflections.
+Physically, rotations fix the centre of the polygon and move each vertex onto any other while preserving the clockwise/anticlockwise order of the vertices. And reflections fix the line joining the centre and any other vertex (as an *axis*) and exchanges all the vertices on either side of that axis. Both can be built from the simplest rotation and reflection: motion of $1$ to $2$, and fixing the line joining the centre and $1$. 
+Mathematically, the physical "symmetries" and "polygons" are irrelevant as we study only the properties that arise from these transformations.
+
+Define the *Dihedral group* $D_n$ of a regular $n$-gon as follows. $e,r,s\in D_n$ with $r^n=s^2=e$ and $sr=r^{n-1}s$. This is how we use the generator notation of groups: since $r,s$ "generate" $D_n$, we express the structure as $D_n = \langle r,s\ |\ r^n=s^2=e,\ sr=r^{n-1}s\rangle$. 

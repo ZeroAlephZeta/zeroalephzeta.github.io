@@ -1,0 +1,23 @@
+/* Proposition — light blue */
+.callout[data-callout="Proposition"] {
+  --callout-color: 230, 240, 255;
+  --callout-icon: bookmark;
+}
+
+/* Proof — soft grey */
+.callout[data-callout="proof"] {
+  --callout-color: 245, 245, 245;
+  --callout-icon: check-square;
+}
+
+/* Definition — light green */
+.callout[data-callout="definition"] {
+  --callout-color: 230, 255, 230;
+  --callout-icon: book-open;
+}
+
+/* Remark — warm beige */
+.callout[data-callout="remark"] {
+  --callout-color: 255, 250, 230;
+  --callout-icon: lightbulb;
+}

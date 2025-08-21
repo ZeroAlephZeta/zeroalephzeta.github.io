@@ -1,0 +1,2 @@
+Set theory has various aspects to it. There is [[Naïve set theory]], and there is [[ZFC theory]] as a finisher. The discussion contains some more algebraic aspects as well.
+> Insert other set theoretic hyperlinks

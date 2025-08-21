@@ -1,0 +1,1 @@
+(For naturals) If $1\in S$ and $n\in S\Rightarrow(n+1)\in S$, then $S=\mathbb{N}$.

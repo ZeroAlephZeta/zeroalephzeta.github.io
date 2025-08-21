@@ -1,0 +1,14 @@
+---
+aliases:
+  - Section A
+---
+1. Let $V$ be a vector space with additive identity $0$. Then for any $v\in V$, $v+(-v)=0$, and adding the additive inverse of $(-v)$ to both sides we get $v+(-v)+(-(-v))=v+0=0+(-(-v))=(-(-v))$.
+2. (Contrapositive) Given $V$ on $\mathbb{F}$ with additive identities $\mathbf{0}$ and $0$ respectively, suppose that for some $0\ne a\in\mathbb{F}$ and $\mathbf{0}\ne\mathbf{v}\in V$, $a\mathbf{v}=\mathbf{0}$. Clearly by the assumptions, $(-\mathbf{v})\ne \mathbf{v}$, and $a(-\mathbf{v})=-(a\mathbf{v})$, so $$a\mathbf{v}=\mathbf{0}=a\mathbf{v}-(a\mathbf{v})=\mathbf{0}-(a\mathbf{v})=-(a\mathbf{v})=a(-\mathbf{v}),$$ and since $a\ne 0$ we have $\mathbf{v}=-\mathbf{v}$, which is the contradiction ($\rightarrow\leftarrow$).
+3. Given $w,v\in V$, we can define $x=\frac{w-v}3$ satisfying $v+3x=w$, since $(-v)\in V$ and $3\ne 0$ has a multiplicative inverse.
+4. The definition of a vector space contains only one universal existential axiom, namely that the *zero vector* has to exist. The empty set falls short of this reqirement.
+5. We essentially have to prove that for all $\mathbf{v}\in V$, $(-\mathbf{v})\in V$ if and only if $0\mathbf{v}=\mathbf{0}$.
+*Proof.* ($\Longrightarrow$) If every $\mathbf{v}\in V$ has additive inverse $(-\mathbf{v})\in V$, then for any $a$ in the field, $$a\mathbf{v}+0\mathbf{v}=(a+0)\mathbf{v}=a\mathbf{v}$$ by distribution and field axioms, and finally $0\mathbf{v}=\mathbf{0}$ by adding $-(a\mathbf{v})$ to both sides.
+($\Longleftarrow$) If for every $v\in V$, $0\mathbf{v}=\mathbf{0}$, then there is $(-1)\mathbf{v}\in V$ such that $$\mathbf{v}+(-1)\mathbf{v}=1\mathbf{v}+(-1)\mathbf{v}=(1-1)\mathbf{v=0\mathbf{v}}=\mathbf{0},$$ so every vector has additive identity.
+6. We need to check the axioms for the new vectors $\pm \infty$ since $\mathbb{R}$ is itself a vector space. Just from the given data we get commutativity of addition, scalar multiplication and associativity of scalar multiplication. But we fail in case of associativity of vector addition, since if $t\ne 0$ then $(t+\infty)+(-\infty)=0\ne t=t+(\infty+(-\infty))$. Therefore it is not a vector space. We can also notice that we fail the distribution of scalars, say $$\infty=(2-1)\infty\ne 2\infty+(-1)\infty=\infty+(-\infty)=0.$$
+7. #s Given scalar field $\mathbb{F}$ and vector space $V$ and non-empty set $S$, and $V^S:=\{ f:S\to V \}$, we show how it works as a vector space. We define addition as $f+g\in V^S$ by $(f+g)(s)=f(s)+g(s)$ for all $s\in S$, and scalar product as $\lambda f\in V^S$ by $(\lambda f)(s)=\lambda \cdot f(s)$ for all $s\in S$ and $\lambda\in\mathbb{F}$. The additive identity $0\in V^S$ is defined by $0(s)=0\in V$ for all $s\in S$. Additive inverse is also defined accordingly, and the rest of the axioms are satisfied accordingly. 
+8. This is just isomorphic to a special case of #7 where $|S|=2$.

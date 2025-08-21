@@ -1,0 +1,6 @@
+11. Suppose $V$ has dimension $n$ and a basis is $\mathcal{B}:=\{ v_{1},v_{2},\dots,v_{n} \}$. Then define the following set of linear maps $\mathcal{S}:=\{ S_{1},S_{2},\dots,S_{n} \}$ by $S_{i}(v_{i})=v_{i}$ and $\forall i\ne j,\ S_{i}(v_{j})=0$. Therefore by applying the hypothesis that $S_{i}T=TS_{i}$ for all $i\in \{ 1,\dots,n \}$, we see that if $v:=\sum\alpha_{i}v_{i}$ (assuming that $\alpha_{k}\ne 0$) then $$  TS_{k}(v)= T(\alpha_{k}v_{k}) =\alpha_{k}T(v_{k}) =S_{k}T(v) =\alpha^*v_{k}  $$ for some $\alpha^*\in \mathbb{F}$. Therefore $T(v_{k})=\beta_{k}v_{k}$ for some $\beta_{k}=\frac{\alpha^*}{\alpha_{k}}$, and this holds for all $k\in \{ 1,\dots,n \}$.
+Now we consider another linear map $S\in \mathcal{L}(V)$ defined by $S(v_{i})=v_{1}$ for all $i\in \{ 1,\dots,n \}$. Choosing arbitrary $\lambda_{i}\in \mathbb{F}$, and $v:=\sum \lambda_{i}v_{i}$ we see that
+$$ST(v) = S\left( \sum \lambda_i \alpha_i v_i \right) 
+= \left( \sum \lambda_i \alpha_i \right) v_1 
+\quad =\quad TS(v) = T\left( \left( \sum \lambda_i \right) v_1 \right) = \alpha_1 \left( \sum \lambda_i \right) v_1$$
+so $\sum \lambda_{i}(\alpha_{i}-\alpha_{1})=0$ for all $\lambda_{i}$ of arbitrary choice. Therefore $(\alpha_{i}-\alpha_{1})=0$ for all $i\in \{ 1,\dots,n \}$ and we have $\alpha_{1}=\alpha_{2}=\dots=\alpha_{n}={\alpha}$, and $T(v)=\alpha v$ for all $v\in V$.

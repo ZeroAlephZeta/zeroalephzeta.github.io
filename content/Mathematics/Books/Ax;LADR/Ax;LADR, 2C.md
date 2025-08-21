@@ -1,0 +1,1 @@
+1. We consider all possible bases. First, the empty basis gives the subspace $\{ 0 \}$. Then we introduce a vector outside the span. 
